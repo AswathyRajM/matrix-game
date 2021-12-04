@@ -11,7 +11,7 @@ function Matrix() {
     setCount(count + 1);
     if (redBox.length === 3) {
       newArr.shift();
-      console.log(newArr);
+
       setRedBox([...newArr, e.target.id]);
     } else if (redBox.length <= 2 && redBox.length > 0) {
       setRedBox((arr) => [...arr, e.target.id]);
