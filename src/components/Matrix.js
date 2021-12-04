@@ -36,7 +36,6 @@ function Matrix() {
           </div>
 
           <div
-            className="box"
             className={
               redBox.indexOf("2") !== -1 ? "box box-red" : " box box-blue"
             }
